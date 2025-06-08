@@ -40,7 +40,7 @@ def main():
     word_2 = get_word_with_letter(rand_letter)
     player_score_2 = calculate_score(word_2)
     print(f"Игрок 1 ввел слово {word_1}, и получил {player_score_1} очков")
-    print(f"Игрок 1 ввел слово {word_2}, и получил {player_score_2} очков")
+    print(f"Игрок 2 ввел слово {word_2}, и получил {player_score_2} очков")
     if player_score_1 > player_score_2:
         print("Игрок 1 победил")
     elif player_score_1 < player_score_2:
